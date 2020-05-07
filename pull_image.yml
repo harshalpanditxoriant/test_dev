@@ -3,4 +3,4 @@
   tasks:
   - name: pull
     docker_image:
-	name:tomcat:8.0-alpine
+	name: tomcat:8.0-alpine
