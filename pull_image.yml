@@ -1,5 +1,5 @@
 - name: Pull tomcat image
-  hosts: 10.20.14.183
+  hosts: localhost
   tasks:
   - name: pull
     docker_image:
