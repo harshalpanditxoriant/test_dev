@@ -1,0 +1,6 @@
+- name: Pull tomcat image
+  hosts: dockerhost
+  tasks:
+  - name: pull
+    docker_image:
+		name:tomcat:8.0-alpine
