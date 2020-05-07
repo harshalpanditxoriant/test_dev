@@ -1,5 +1,5 @@
 - name: Pull tomcat image
-  hosts: web
+  hosts: localhost
   tasks:
   - name: pull
     docker_image:
